@@ -79,7 +79,7 @@ const app = express();
 
 // Enable CORS
 app.use(cors({
-  origin: 'https://mystore-ecommerce-d92ef.web.app/', // Replace with your frontend's domain
+  origin: 'https://mystore-ecommerce-d92ef.web.app', // Replace with your frontend's domain
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, // Enable this if you need to send cookies or use other credentials
 }));
